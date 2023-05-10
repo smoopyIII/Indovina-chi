@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+
+body{
+    background: #EDDE9CFF;
+}
+
+.titolo
+{
+    color: red;
+    font-family: 'Sigmar', cursive;
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.ombra{
+    color: #bc2e1e;
+    background: #edde9c;
+    text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd;
+}
+
+.banner {
+    width: 80%;
+    height: auto;
+    background-color: #5DABCDFF;
+    padding: 10px;
+    display : flex;
+    flex-wrap: wrap;
+    font-size: 35px;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    margin-left:10%;
+    border-radius: 8px;
+    border: 2px solid black;
+    -webkit-box-shadow: 13px 11px 15px 1px #6F6F6F;
+    box-shadow: 13px 11px 15px 1px #6F6F6F;
+}
+
+.bannerInizio {
+    width: 80%;
+    height: auto;
+    background-color: #5DABCDFF;
+    border: 2px solid black;
+    display : flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    top: 20%;
+    margin-left:10%;
+    padding-bottom:10px;
+    border-radius: 8px;
+    -webkit-box-shadow: 13px 11px 15px 1px #6F6F6F;
+    box-shadow: 13px 11px 15px 1px #6F6F6F;
+}
+
+.divLogin{
+}
+
+.immagine{
+    height: 200px;
+    width: 150px;
+    margin-top:15px;
+    margin-left: 20px;
+}
+
+.divClassifica{
+    border: solid black 2px;
+    margin-left: 14%;
+    background: white;
+    border-radius: 8px;
+    font-size: 25px;
+    padding-top: 1%;
+    height: 220px;
+}
+.classifica{
+    align-items: center;
+
+}
+td, th{
+    width: 180px;
+    padding: 5px 20px;
+}
+
+.bannerAfter{
+    width: 1380px;
+    height: 230px;
+    background-color: #5DABCDFF;
+    border: 2px solid black;
+    display : flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.bannerGame{
+    width: 1380px;
+    height: 230px;
+    background-color: #5DABCDFF;
+    border: 2px solid black;
+    display : flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.tileSelected{
+    width: 150px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 1%;
+}
+
+.loginMenu{
+    width: auto;
+    margin-left: 20%;
+    margin-top: 1%;
+}
+
+.SceltaPersonaggio {
+    width: 550px;
+    height: 50px;;
+    background: white;
+    text-align: center;
+    margin-top: 7%;
+    margin-left: 17%;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+.SceltaPersonaggioAvversario {
+    width: 700px;
+    height: 50px;
+    background: white;
+    text-align: center;
+    margin-left: 15%;
+    margin-top: 50px;
+    border-radius: 8px;
+    border: 2px solid black;
+
+}
+
+.input {
+    width: 40%;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.input2 {
+    width: 550px;
+    height:50px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 8px;
+    display: none;
+}
+.inputUP {
+    width: 500px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 2%;
+    border: solid black 2px;
+    display: flex;
+    flex-direction:row;
+}
+
+.tableTitle{
+    color: red;
+    font-family: 'Sigmar', cursive;
+    font-size: 25px;
+}
+
+
+
+.buttonGenerico {
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    border: black 2px solid;
+    background-color: #BC2E1EFF;
+    color: #fff;
+    border-radius: 8px;
+    margin-top: 6%;
+    margin-left: 95%;
+}
+
+.buttonSiNo{
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    border: black 2px solid;
+    background-color: #BC2E1EFF;
+    color: #fff;
+    border-radius: 8px;
+    margin: 5% 5% 0 5%;
+    display: none;
+}
+
+.sfida{
+    width: 550px;
+    height: 45px;
+    background: white;
+    text-align: center;
+    margin-top: 8%;
+    margin-left: 50%;
+    border-radius: 8px;
+    border: 2px solid black;
+    font-size: 30px;
+
+}
+
+.button_sfida{
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #BC2E1EFF;
+    color: #fff;
+    border-radius: 8px;
+    border: solid 2px black;
+    margin-top: 2%;
+    margin-left: 5%;
+
+}
+
+.contenitore{
+    flex-direction:row;
+    width: 550px;
+    margin-left: 50%;
+    margin-top:6%;
+}
+
+.globalPlayerMenu{
+    display: flex;
+    flex-direction:row;
+    margin-right: 8%;
+    margin-top:4%;
+}
+
+.attesa {
+    width: 100%;
+    margin-top: 1%;
+    height:auto;
+}
+
+.globalMenuAttesa{
+    display: flex;
+    flex-direction:row;
+    margin-right: 1%;
+}
+
+.sfida_logout{
+    margin-top: 2%;
+    width:70%;
+}
+
+.sfida_login{
+    display: flex;
+    margin-top: 1%;
+    width: 30%;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin-left: 6%;
+    position: absolute;
+}
+
+.buttonLogin{
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #BC2E1EFF;
+    color: #fff;
+    border-radius: 8px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.globalContainer{
+    display: flex;
+    flex-direction:row;
+    margin-bottom:1%;
+}
+
+.inputNick {
+    width: 550px;
+    height:50px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.buttonMenu{
+    margin-top:4%;
+}
+
+
+
+
+
+
+
+

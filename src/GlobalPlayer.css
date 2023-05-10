@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+
+.globalPlayerBoard{
+    background-color: White;
+    border: solid black 2px;
+    border-radius: 8px;
+    margin-left: 4%;
+    font-size: 25px;
+    padding-top: 1%;
+    width: 440px;
+    height: auto;
+}
+
+.globalPlayerTitle{
+    color: #bc2e1e;
+    font-family: 'Sigmar', cursive;
+    font-size: 30px;
+}
+

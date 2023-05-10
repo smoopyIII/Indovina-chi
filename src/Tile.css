@@ -1,0 +1,13 @@
+.tile{
+    display: grid;
+    place-content: center;
+    width:auto;
+    height: auto;
+}
+
+.tile img{
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+}
+

@@ -1,0 +1,28 @@
+.board {
+    display : flex;
+    flex-wrap: wrap;
+    width: 1380px;
+    height: 100%;
+    background-color: #BC2E1EFF;
+    margin-left: 10%;
+    border: solid black 2px;
+}
+
+.board .tile {
+    height: 200px;
+    width: 150px;
+    background-color: #5DABCDFF;
+    border: 1px solid black;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.board img:hover {
+    border: 3px solid  #5DABCDFF;
+    cursor: pointer;
+    scale : 1.1;
+}
+

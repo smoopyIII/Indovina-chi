@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+
+.classificaBoard{
+    background-color: White;
+    border: solid black 2px;
+    border-radius: 8px;
+    font-size: 25px;
+    padding-top: 1%;
+    width: 75%;
+    margin-top:4%;
+    margin-left: 13%;
+}
+
+.classificaTitle{
+    color: #bc2e1e;
+    font-family: 'Sigmar', cursive;
+    font-size: 30px;
+}
+
+.classifica{
+    width: auto;
+}
